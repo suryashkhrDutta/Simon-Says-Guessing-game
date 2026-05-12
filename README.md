@@ -42,25 +42,5 @@ A modern and interactive Simon Says memory game built using HTML, CSS, and JavaS
 * Online leaderboard
 * AI-based adaptive difficulty
 * Advanced animations
-
-## 📸 Preview
-
-(Add screenshots or gameplay GIF here)
-
-## 🌐 Live Demo
-
-(Add deployed project link here)
-
-## 📂 Installation
-
-Clone the repository:
-
-```bash
-git clone YOUR_REPO_LINK
-```
-
-Open `index.html` in your browser.
-
-## 👨‍💻 Author
-
+* 
 Suryashekhar Dutta
