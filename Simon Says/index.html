@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+    <h1>Simon Says</h1>
+    <h2>Game Instructions :</h2>
+    <p>Watch the sequence of colors and repeat it back!</p>
+
+    <button id="start-btn">Start Game</button>
+
+    <button id="restart-btn">Restart Game</button>
+    <a 
+   href="https://youtu.be/EWJ5uYwQJGU?si=IjdJTp_EGFFpiL7o" 
+   target="_blank" 
+   id="tutorial-btn"
+>
+   How To Play
+</a>
+    
+    <div class="btn-container">
+        <div class="line-1">
+
+            <div class="btn red" type="button" id="red">1</div>
+            <div class="btn yellow" type="button" id="yellow">2</div>
+        </div>
+        <div class="line-2">
+            <div class="btn green" type="button" id="green">3</div>
+            <div class="btn blue" type="button" id="blue">4</div>
+        </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
